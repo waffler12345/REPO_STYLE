@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+        
+        {% block content %}
+        <!-- Page content-->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-8">
+                    <!-- Post content-->
+                    <article>
+                        <!-- Post header-->
+                        <header class="mb-4">
+                            <!-- Post title-->
+                            <h1 class="fw-bolder mb-1">Private Lessons</h1>
+                            <!-- Post meta content-->
+                            <div class="text-muted fst-italic mb-2">Last Updated November 26, 2023</div>
+                            <!-- Post categories-->
+                            <!--
+                            <a class="badge bg-secondary text-decoration-none link-light" href="#!">Web Design</a>
+                            <a class="badge bg-secondary text-decoration-none link-light" href="#!">Freebies</a>
+                            -->    
+                        </header>
+                        <!-- Preview image figure-->
+                        <figure class="mb-4"><img class="img-fluid rounded" src="static/img/chesspiece.jpg" alt="..." /></figure>
+                        <!-- Post content-->
+                        <section class="mb-5">
+                            <p class="fs-5 mb-4">My name is Gabriel Petesch, and I am a full-time chess instructor who offers private chess lessons for students in the Pittsburgh Area.  
+                                I am a Fide Master (FM) currently ranked 7th in Pennsylvania, with over 10 years of experience teaching private lessons.   
+                            </p>
+
+                            <hr>
+
+                            <p class="fs-5 mb-4"> 
+                                <strong>Flexible Approach:</strong> I identify my student’s unique strengths and weaknesses- so my lessons are specific to each student.  
+                            </p>
+                            
+                            <p class="fs-5 mb-4">
+                                <strong>Hard Work:</strong> I push my students to analyze positions for themselves instead of just giving them the answers right away.  This sharpens their calculation and analysis skills.  
+                            </p>
+
+                            <p class="fs-5 mb-4">
+                                <strong>All Ages/Skill Levels:</strong> I have taught students of all ages, from as young as 5 years old, to retired adults.   
+                            </p>
+
+                            <hr>
+
+                            <button class="btn btn-primary">Contact Me for More Info On Private Lessons!</button>
+                        
+                        </section>
+                    </article>
+                    
+                </div>
+                <!-- Side widgets-->
+                <div class="col-lg-4">
+                    <!-- Search widget-->
+                    <div class="card mb-4">
+                        <div class="card-header">Search</div>
+                        <div class="card-body">
+                            <div class="input-group">
+                                <input class="form-control" type="text" placeholder="Enter search term..." aria-label="Enter search term..." aria-describedby="button-search" />
+                                <button class="btn btn-primary" id="button-search" type="button">Go!</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Categories widget-->
+                    <div class="card mb-4">
+                        <div class="card-header">Improve at Chess!</div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled mb-0">
+                                        <li><a href="https://chess.com">Chess.com</a></li>
+                                        <li><a href="https://lichess.org">LiChess</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled mb-0">
+                                        <li><a href="https://chesskid.com">ChessKid</a></li>
+                                        <li><a href="https://chessable.com">Chessable</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+
+
+        {% endblock content %}

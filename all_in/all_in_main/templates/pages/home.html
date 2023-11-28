@@ -1,0 +1,77 @@
+
+        {% extends 'base.html' %}
+        
+        {% block content %}
+        <!-- Page content-->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-8">
+                    <!-- Post content-->
+                    <article>
+                        <!-- Post header-->
+                        <header class="mb-4">
+                            <!-- Post title-->
+                            <h1 class="fw-bolder mb-1">Home</h1>
+                            <!-- Post meta content-->
+                            <div class="text-muted fst-italic mb-2">Last Updated November 25, 2023</div>
+                            <!-- Post categories-->
+                            <!--
+                            <a class="badge bg-secondary text-decoration-none link-light" href="#!">Web Design</a>
+                            <a class="badge bg-secondary text-decoration-none link-light" href="#!">Freebies</a>
+                            -->    
+                        </header>
+                        <!-- Preview image figure-->
+                        <figure class="mb-4"><img class="img-fluid rounded" src="static/img/chesspiece.jpg" alt="..." /></figure>
+                        <!-- Post content-->
+                        <section class="mb-5">
+                            <p class="fs-5 mb-4">My name is Gabriel Petesch and I am a Fide Chess Master (FM) and Professional Chess Instructor from Pittsburgh.  I am currently ranked 7th in the state of Pennsylvania.
+
+                                I have taught private lessons for over 10 years, and have been a full-time Chess teacher for over 5 years.  </p>
+                            <h2 class="fw-bolder mb-4 mt-5">Tournaments, Camps, Classes, and Other Events</h2>
+                            <p class="fs-5 mb-4"> I am currently running events in a wide variety of locations in the greater-Pittsburgh area,  including: Fox Chapel, Mt. Lebanon, McCandless, and Sewickley.
+
+                                ➜➜Take a look at my full events schedule to see everything I have planned! </p>
+                        </section>
+                    </article>
+                    
+                </div>
+                <!-- Side widgets-->
+                <div class="col-lg-4">
+                    <!-- Search widget-->
+                    <div class="card mb-4">
+                        <div class="card-header">Search</div>
+                        <div class="card-body">
+                            <div class="input-group">
+                                <input class="form-control" type="text" placeholder="Enter search term..." aria-label="Enter search term..." aria-describedby="button-search" />
+                                <button class="btn btn-primary" id="button-search" type="button">Go!</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Categories widget-->
+                    <div class="card mb-4">
+                        <div class="card-header">Improve at Chess!</div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled mb-0">
+                                        <li><a href="https://chess.com">Chess.com</a></li>
+                                        <li><a href="https://lichess.org">LiChess</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled mb-0">
+                                        <li><a href="https://chesskid.com">ChessKid</a></li>
+                                        <li><a href="https://chessable.com">Chessable</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+
+
+        {% endblock content %}
